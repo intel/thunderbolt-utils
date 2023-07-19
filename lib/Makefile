@@ -5,7 +5,7 @@
 # Copyright (C) 2023 Rajat Khandelwal <rajat.khandelwal@intel.com>
 # Copyright (C) 2023 Intel Corporation
 
-LIBTBT_EXEC = /usr/bin/lstbt
+LIBTBT_EXEC = lstbt
 
 CC = gcc
 RM = rm -f
@@ -26,4 +26,3 @@ $(LIBTBT_EXEC): $(O_FILES)
 
 clean:
 	-$(RM) $(LIBTBT_EXEC) $(O_FILES)
-
